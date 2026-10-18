@@ -1,0 +1,159 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - generic [ref=e4]:
+        - img [ref=e6]
+        - generic [ref=e9]:
+          - generic [ref=e10]: 데이터 탐험실
+          - generic [ref=e11]: DATA LAB · CLASSROOM
+      - generic [ref=e12]: 수행평가 메뉴
+      - navigation "주요 메뉴" [ref=e13]:
+        - button "평가 개요" [ref=e14] [cursor=pointer]:
+          - img [ref=e15]
+          - text: 평가 개요
+        - button "분석 기록" [ref=e20] [cursor=pointer]:
+          - img [ref=e21]
+          - text: 분석 기록
+        - button "평가 기준" [ref=e23] [cursor=pointer]:
+          - img [ref=e24]
+          - text: 평가 기준
+      - generic [ref=e26]:
+        - generic [ref=e27]:
+          - generic [ref=e28]: 현재 수업
+          - strong [ref=e29]: 정보 · 3단원 인공지능 기초
+          - paragraph [ref=e30]: 데이터 분석 과정 수행평가
+        - generic [ref=e31]:
+          - generic [ref=e32]: 학
+          - generic [ref=e33]:
+            - strong [ref=e34]: 나의 학습 기록
+            - text: 학생 작업 공간
+    - main [ref=e35]:
+      - generic [ref=e36]:
+        - generic [ref=e37]: 정보 교과 / 3단원 · 인공지능 기초
+        - generic [ref=e38]:
+          - generic [ref=e39]: 진행 중인 평가
+          - button "기록 다운로드" [ref=e41] [cursor=pointer]:
+            - img [ref=e42]
+      - generic [ref=e44]:
+        - generic [ref=e45]:
+          - generic [ref=e46]:
+            - generic [ref=e47]: Performance task · 2025
+            - heading "데이터 분석 프로젝트" [level=1] [ref=e48]
+            - paragraph [ref=e49]: 데이터에서 질문을 찾고, 근거를 바탕으로 답을 만들어 보세요.
+          - generic [ref=e50]:
+            - text: 예상 소요 시간
+            - strong [ref=e51]: 40분 · 개인 활동
+        - generic [ref=e53]:
+          - generic [ref=e54]:
+            - generic [ref=e55]:
+              - generic [ref=e56]:
+                - generic [ref=e57]:
+                  - img [ref=e58]
+                  - text: 오늘의 데이터 미션
+                - heading "수면 시간과 집중도, 어떤 관계가 있을까요?" [level=2] [ref=e60]:
+                  - text: 수면 시간과 집중도,
+                  - text: 어떤 관계가 있을까요?
+                - paragraph [ref=e61]: 가상의 학급 데이터를 탐색하고, 나만의 분석 질문에 데이터로 답해 보세요.
+                - generic [ref=e62]:
+                  - button "분석 시작하기" [ref=e63] [cursor=pointer]:
+                    - text: 분석 시작하기
+                    - generic [ref=e64]: →
+                  - generic [ref=e65]: Google Colab에서 파이썬으로 분석해요
+              - img [ref=e67]
+            - generic [ref=e82]:
+              - generic [ref=e83]:
+                - generic [ref=e84]:
+                  - generic [ref=e85]: 나의 진행 상황
+                  - generic [ref=e86]: 한 단계씩 완료하고 분석 기록을 남겨요
+                - button "이어서 하기 →" [ref=e87] [cursor=pointer]
+              - generic [ref=e88]:
+                - generic [ref=e89]: 전체 진행률
+                - generic [ref=e90]: 0%
+              - generic [ref=e92]:
+                - generic [ref=e93]:
+                  - generic [ref=e94]: "01"
+                  - generic [ref=e95]: 문제 정의
+                - generic [ref=e96]:
+                  - generic [ref=e97]: "02"
+                  - generic [ref=e98]: 데이터 탐색
+                - generic [ref=e99]:
+                  - generic [ref=e100]: "03"
+                  - generic [ref=e101]: 분석과 해석
+                - generic [ref=e102]:
+                  - generic [ref=e103]: "04"
+                  - generic [ref=e104]: 결론 공유
+            - generic [ref=e105]:
+              - generic [ref=e106]:
+                - generic [ref=e107]:
+                  - generic [ref=e108]: 수행 체크리스트
+                  - generic [ref=e109]: 완료한 항목을 체크해 보세요
+                - generic [ref=e110]: 0 / 4 완료
+              - generic [ref=e111]:
+                - generic [ref=e112]:
+                  - checkbox "분석할 질문을 정했어요 무엇이 궁금한지 구체적인 질문으로 표현하기 1단계" [ref=e113] [cursor=pointer]
+                  - generic [ref=e114]:
+                    - strong [ref=e115]: 분석할 질문을 정했어요
+                    - generic [ref=e116]: 무엇이 궁금한지 구체적인 질문으로 표현하기
+                  - generic [ref=e117]: 1단계
+                - generic [ref=e118]:
+                  - checkbox "데이터의 구조와 특징을 확인했어요 행·열, 자료의 종류, 결측값을 살펴보기 2단계" [ref=e119] [cursor=pointer]
+                  - generic [ref=e120]:
+                    - strong [ref=e121]: 데이터의 구조와 특징을 확인했어요
+                    - generic [ref=e122]: 행·열, 자료의 종류, 결측값을 살펴보기
+                  - generic [ref=e123]: 2단계
+                - generic [ref=e124]:
+                  - checkbox "그래프를 만들고 결과를 해석했어요 분석 결과를 그래프와 수치로 설명하기 3단계" [ref=e125] [cursor=pointer]
+                  - generic [ref=e126]:
+                    - strong [ref=e127]: 그래프를 만들고 결과를 해석했어요
+                    - generic [ref=e128]: 분석 결과를 그래프와 수치로 설명하기
+                  - generic [ref=e129]: 3단계
+                - generic [ref=e130]:
+                  - checkbox "근거가 있는 결론을 작성했어요 데이터로 알 수 있는 점과 한계 함께 쓰기 4단계" [ref=e131] [cursor=pointer]
+                  - generic [ref=e132]:
+                    - strong [ref=e133]: 근거가 있는 결론을 작성했어요
+                    - generic [ref=e134]: 데이터로 알 수 있는 점과 한계 함께 쓰기
+                  - generic [ref=e135]: 4단계
+          - generic [ref=e136]:
+            - generic [ref=e137]:
+              - generic [ref=e138]:
+                - generic [ref=e139]:
+                  - generic [ref=e140]: 실습 데이터
+                  - generic [ref=e141]: 가상 학급 생활 습관 데이터
+                - generic [ref=e142]: CSV
+              - img "수면과 집중도 산점도 미리보기" [ref=e144]:
+                - generic [ref=e154]: 수면 시간
+                - generic [ref=e155]: 집중도
+              - generic [ref=e156]:
+                - generic [ref=e157]: 학생 수
+                - generic [ref=e158]: 30명
+              - generic [ref=e159]:
+                - generic [ref=e160]: 항목
+                - generic [ref=e161]: 수면 · 집중도 · 운동
+              - generic [ref=e162]:
+                - generic [ref=e163]: 파일 크기
+                - generic [ref=e164]: 2 KB
+              - button "CSV 데이터 내려받기" [ref=e165] [cursor=pointer]:
+                - img [ref=e166]
+                - text: CSV 데이터 내려받기
+              - button "Colab 노트북 받기 (.ipynb)" [ref=e168] [cursor=pointer]:
+                - img [ref=e169]
+                - text: Colab 노트북 받기 (.ipynb)
+            - generic [ref=e171]:
+              - generic [ref=e173]:
+                - generic [ref=e174]: 나만의 분석 질문
+                - generic [ref=e175]: 질문을 고르면 분석 방향이 선명해져요
+              - generic [ref=e176]:
+                - generic [ref=e177]: 어떤 관계를 알아볼까요?
+                - combobox "어떤 관계를 알아볼까요?" [ref=e178] [cursor=pointer]:
+                  - option "수면 시간 ↔ 집중도" [selected]
+                  - option "운동 횟수 ↔ 집중도"
+                  - option "평일 ↔ 주말 수면"
+                  - option "나만의 질문 작성"
+              - button "질문 기록하고 계속하기 →" [ref=e179] [cursor=pointer]
+            - generic [ref=e180]:
+              - img [ref=e182]
+              - generic [ref=e184]:
+                - strong [ref=e185]: 분석 팁
+                - paragraph [ref=e186]: 그래프는 관계를 보여줄 뿐, 원인과 결과를 바로 증명하지는 않아요. 데이터의 한계도 함께 생각해 보세요.
+        - generic [ref=e187]: 데이터 탐험실 · 정보 3단원 인공지능 기초
+  - status

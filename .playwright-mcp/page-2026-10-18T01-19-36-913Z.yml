@@ -1,0 +1,167 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - navigation "주요 메뉴" [ref=e4]:
+        - button "평가 개요" [ref=e5] [cursor=pointer]:
+          - img [ref=e6]
+          - text: 평가 개요
+        - button "분석 기록" [ref=e11] [cursor=pointer]:
+          - img [ref=e12]
+          - text: 분석 기록
+        - button "평가 기준" [ref=e14] [cursor=pointer]:
+          - img [ref=e15]
+          - text: 평가 기준
+    - main [ref=e17]:
+      - generic [ref=e18]:
+        - generic [ref=e19]: 정보 교과 / 3단원 · 인공지능 기초
+        - generic [ref=e20]:
+          - generic [ref=e21]: 진행 중인 평가
+          - button "기록 다운로드" [ref=e23] [cursor=pointer]:
+            - img [ref=e24]
+      - generic [ref=e26]:
+        - generic [ref=e27]:
+          - generic [ref=e28]:
+            - generic [ref=e29]: Performance task · 2025
+            - heading "데이터 분석 프로젝트" [level=1] [ref=e30]
+            - paragraph [ref=e31]: 데이터에서 질문을 찾고, 근거를 바탕으로 답을 만들어 보세요.
+          - generic [ref=e32]:
+            - text: 예상 소요 시간
+            - strong [ref=e33]: 40분 · 개인 활동
+        - generic [ref=e35]:
+          - generic [ref=e36]:
+            - generic [ref=e37]:
+              - generic [ref=e38]:
+                - generic [ref=e39]:
+                  - img [ref=e40]
+                  - text: 오늘의 데이터 미션
+                - heading "수면 시간과 집중도, 어떤 관계가 있을까요?" [level=2] [ref=e42]:
+                  - text: 수면 시간과 집중도,
+                  - text: 어떤 관계가 있을까요?
+                - paragraph [ref=e43]: 가상의 학급 데이터를 탐색하고, 나만의 분석 질문에 데이터로 답해 보세요.
+                - button "분석 시작하기" [ref=e45] [cursor=pointer]:
+                  - text: 분석 시작하기
+                  - generic [ref=e46]: →
+              - img [ref=e48]
+            - generic [ref=e63]:
+              - generic [ref=e64]:
+                - generic [ref=e65]:
+                  - generic [ref=e66]: 탐험 진행 상황
+                  - generic [ref=e67]: 퀘스트를 완료하고 경험치와 배지를 모아요
+                - button "이어서 하기 →" [ref=e68] [cursor=pointer]
+              - generic [ref=e69]:
+                - generic [ref=e70]: 미션 진행률
+                - generic [ref=e71]: 0%
+              - generic [ref=e73]:
+                - generic [ref=e74]:
+                  - generic [ref=e75]: "01"
+                  - generic [ref=e76]: 문제 정의
+                - generic [ref=e77]:
+                  - generic [ref=e78]: "02"
+                  - generic [ref=e79]: 데이터 탐색
+                - generic [ref=e80]:
+                  - generic [ref=e81]: "03"
+                  - generic [ref=e82]: 분석과 해석
+                - generic [ref=e83]:
+                  - generic [ref=e84]: "04"
+                  - generic [ref=e85]: 결론 공유
+              - generic [ref=e86]:
+                - img [ref=e88]
+                - generic [ref=e90]:
+                  - generic [ref=e91]: 현재 등급
+                  - strong [ref=e92]: 탐험 준비생
+                - generic [ref=e93]: 0 / 400 XP
+              - generic [ref=e95]:
+                - generic [ref=e96]: 수집한 배지
+                - generic [ref=e97]: 0 / 4
+              - generic [ref=e98]:
+                - generic [ref=e99]:
+                  - img [ref=e101]
+                  - strong [ref=e104]: 질문 탐정
+                  - generic [ref=e105]: 질문 퀘스트
+                - generic [ref=e106]:
+                  - img [ref=e108]
+                  - strong [ref=e110]: 데이터 수집가
+                  - generic [ref=e111]: 탐색 퀘스트
+                - generic [ref=e112]:
+                  - img [ref=e114]
+                  - strong [ref=e116]: 그래프 분석가
+                  - generic [ref=e117]: 분석 퀘스트
+                - generic [ref=e118]:
+                  - img [ref=e120]
+                  - strong [ref=e122]: 인사이트 마스터
+                  - generic [ref=e123]: 결론 퀘스트
+            - generic [ref=e124]:
+              - generic [ref=e125]:
+                - generic [ref=e126]:
+                  - generic [ref=e127]: 퀘스트 보드
+                  - generic [ref=e128]: 미션을 마칠 때마다 100 XP를 받아요
+                - generic [ref=e129]: 0 / 4 완료
+              - generic [ref=e130]:
+                - generic [ref=e131]:
+                  - checkbox "분석할 질문을 정했어요 무엇이 궁금한지 구체적인 질문으로 표현하기 +100 XP" [ref=e132] [cursor=pointer]
+                  - generic [ref=e133]:
+                    - strong [ref=e134]: 분석할 질문을 정했어요
+                    - generic [ref=e135]: 무엇이 궁금한지 구체적인 질문으로 표현하기
+                  - generic [ref=e136]: +100 XP
+                - generic [ref=e137]:
+                  - checkbox "데이터의 구조와 특징을 확인했어요 행·열, 자료의 종류, 결측값을 살펴보기 +100 XP" [ref=e138] [cursor=pointer]
+                  - generic [ref=e139]:
+                    - strong [ref=e140]: 데이터의 구조와 특징을 확인했어요
+                    - generic [ref=e141]: 행·열, 자료의 종류, 결측값을 살펴보기
+                  - generic [ref=e142]: +100 XP
+                - generic [ref=e143]:
+                  - checkbox "그래프를 만들고 결과를 해석했어요 분석 결과를 그래프와 수치로 설명하기 +100 XP" [ref=e144] [cursor=pointer]
+                  - generic [ref=e145]:
+                    - strong [ref=e146]: 그래프를 만들고 결과를 해석했어요
+                    - generic [ref=e147]: 분석 결과를 그래프와 수치로 설명하기
+                  - generic [ref=e148]: +100 XP
+                - generic [ref=e149]:
+                  - checkbox "근거가 있는 결론을 작성했어요 데이터로 알 수 있는 점과 한계 함께 쓰기 +100 XP" [ref=e150] [cursor=pointer]
+                  - generic [ref=e151]:
+                    - strong [ref=e152]: 근거가 있는 결론을 작성했어요
+                    - generic [ref=e153]: 데이터로 알 수 있는 점과 한계 함께 쓰기
+                  - generic [ref=e154]: +100 XP
+          - generic [ref=e155]:
+            - generic [ref=e156]:
+              - generic [ref=e157]:
+                - generic [ref=e158]:
+                  - generic [ref=e159]: 실습 데이터
+                  - generic [ref=e160]: 가상 학급 생활 습관 데이터
+                - generic [ref=e161]: CSV
+              - img "수면과 집중도 산점도 미리보기" [ref=e163]:
+                - generic [ref=e173]: 수면 시간
+                - generic [ref=e174]: 집중도
+              - generic [ref=e175]:
+                - generic [ref=e176]: 학생 수
+                - generic [ref=e177]: 30명
+              - generic [ref=e178]:
+                - generic [ref=e179]: 항목
+                - generic [ref=e180]: 수면 · 집중도 · 운동
+              - generic [ref=e181]:
+                - generic [ref=e182]: 파일 크기
+                - generic [ref=e183]: 2 KB
+              - button "CSV 데이터 내려받기" [ref=e184] [cursor=pointer]:
+                - img [ref=e185]
+                - text: CSV 데이터 내려받기
+              - button "Colab 노트북 받기 (.ipynb)" [ref=e187] [cursor=pointer]:
+                - img [ref=e188]
+                - text: Colab 노트북 받기 (.ipynb)
+            - generic [ref=e190]:
+              - generic [ref=e192]:
+                - generic [ref=e193]: 나만의 분석 질문
+                - generic [ref=e194]: 질문을 고르면 분석 방향이 선명해져요
+              - generic [ref=e195]:
+                - generic [ref=e196]: 어떤 관계를 알아볼까요?
+                - combobox "어떤 관계를 알아볼까요?" [ref=e197] [cursor=pointer]:
+                  - option "수면 시간 ↔ 집중도" [selected]
+                  - option "운동 횟수 ↔ 집중도"
+                  - option "평일 ↔ 주말 수면"
+                  - option "나만의 질문 작성"
+              - button "질문 기록하고 계속하기 →" [ref=e198] [cursor=pointer]
+            - generic [ref=e199]:
+              - img [ref=e201]
+              - generic [ref=e203]:
+                - strong [ref=e204]: 분석 팁
+                - paragraph [ref=e205]: 그래프는 관계를 보여줄 뿐, 원인과 결과를 바로 증명하지는 않아요. 데이터의 한계도 함께 생각해 보세요.
+        - generic [ref=e206]: 데이터 탐험실 · 정보 3단원 인공지능 기초
+  - status
